@@ -687,13 +687,12 @@ namespace Obloq {
     //% blockId=Obloq_initHttp
     //% block="http set | ip %ip| port %port"
     //% advanced=true
-    /*
     export function Obloq_initHttp(ip: string, port: number): void { 
         defobloq = OBLOQ_TRUE
         myip = ip
         myport = port
         initmqtt = OBLOQ_FALSE
-    }*/
+    }
 
     /**
      * The HTTP get request.url(string):URL:time(ms): private long maxWait
@@ -703,7 +702,6 @@ namespace Obloq {
     //% blockId=Obloq_httpGet
     //% block="http get | url %url| timeout %time"
     //% advanced=true
-    /*
     export function Obloq_httpGet(url: string, time: number): string[] { 
         if (time < 100) { 
             time = 100
@@ -740,7 +738,7 @@ namespace Obloq {
         }
         let list = ["408", "time out"]
         return list
-    }*/
+    }
 
 
 
